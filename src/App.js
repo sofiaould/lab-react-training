@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import IdCard from './IdCard';
+import Greetings from './greeting';
 //////////////// iteration 1/////////////////////
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
   birth={new Date("1988-05-11")}
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
+<Greetings lang= "es" children= "john" />
     </div>
   );
 }
