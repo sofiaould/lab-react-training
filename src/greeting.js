@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import IdCard from './IdCard';
 
+
 function Greetings(props){
     var messages = "";
     switch(props.lang){

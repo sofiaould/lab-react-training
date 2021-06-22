@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from './IdCard';
 import Greetings from './greeting';
+import Randomnumber from './random';
 //////////////// iteration 1/////////////////////
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
 <Greetings lang= "es" children= "john" />
+<Randomnumber  min="0" max="100">
     </div>
   );
 }
